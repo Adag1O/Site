@@ -4,9 +4,6 @@ import Image from "next/image"
 import Link from "next/link"
 import 'ldrs/ring'
 
-
-
-
 interface Product {
   Name: string
   Price: number
@@ -108,7 +105,7 @@ function Categories() {
   );
 }
 
-function Products({ Category }: { Category?: PopularProductsPotrait }) {
+function Products() {
   return (
     <section className="h-[39vh] w-full flex flex-row">
       <div className="relative h-[100%] w-[30%]">
