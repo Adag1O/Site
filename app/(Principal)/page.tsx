@@ -2,22 +2,6 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import 'ldrs/ring'
-
-interface Product {
-  Name: string
-  Price: number
-  Images: number[]
-}
-
-interface PopularProductsPotrait {
-  ProductCategoryLink: string
-  PrincipalImage: string
-  Name: string,
-  PopularProducts: Product
-}
-
-
 
 function Anouncements() {
   return (
