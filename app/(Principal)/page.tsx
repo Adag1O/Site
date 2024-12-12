@@ -3,7 +3,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import 'ldrs/ring'
-import Loader from "../Components/Exclusive/Spiner";
 
 
 
@@ -12,13 +11,12 @@ interface Product {
   Name: string
   Price: number
   Images: number[]
-  Category: string;
 }
 
 interface PopularProductsPotrait {
   ProductCategoryLink: string
   PrincipalImage: string
-  Name: String,
+  Name: string,
   PopularProducts: Product
 }
 

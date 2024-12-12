@@ -1,5 +1,4 @@
-import Image from "next/image"
-import { BuyLink,BuyCharge } from "../Special/Links"
+import { BuyLink } from "../Special/Links"
 
 export interface CourseBreef{
     Name: string,

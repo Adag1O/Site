@@ -1,5 +1,4 @@
 import Link from "next/link"; // Ensure correct import for `Link`
-import { Home } from "../Special/Links";
 
 export default function Footer({
   children,
